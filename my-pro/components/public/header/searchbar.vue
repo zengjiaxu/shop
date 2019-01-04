@@ -78,7 +78,7 @@ export default {
       isFocus:false,
       search:'',
       hotPlace:['火锅','火锅','火锅','火锅','火锅'],
-      searchList:['搜索','搜索','搜索','搜索','搜索']
+      searchList:['搜索','火锅','搜索','搜索','搜索']
     }
   },
   computed:{

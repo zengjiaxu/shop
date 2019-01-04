@@ -9,7 +9,6 @@
     .el-row:nth-child(1){
       width: 1190px;
       margin: 0 auto;
-      z-index: 10000;
       height: 40px;
       line-height: 40px;
     }
@@ -341,6 +340,7 @@
               top: -1px;
               border-bottom: 1px solid #e5e5e5;
               border-left: 1px solid #E5E5E5;
+              border-right: 1px solid #E5E5E5;
               position: relative;
 
               &:before {

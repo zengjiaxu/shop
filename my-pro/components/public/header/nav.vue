@@ -1,6 +1,6 @@
 <template>
    <div class="m-nav">
-     <ul class="nav">
+     <ul class="nav" style="margin-top:0">
        <li class="list">
          <nuxt-link to="/my">我的美团</nuxt-link>
          <dl>
@@ -34,6 +34,13 @@
              <dd>玩</dd>
              <dd>玩</dd>
              <dd>玩</dd>
+             <dd>玩</dd>
+             <dd>玩</dd>
+             <dd>玩</dd>
+             <dd>玩</dd>
+             <dd>玩</dd>
+             <dd>玩</dd>
+             <dd>玩</dd>
            </dl>
            <dl class="food">
              <dt>吃美食</dt>
@@ -42,19 +49,10 @@
              <dd>烤鱼</dd>
              <dd>早餐</dd>
              <dd>快餐</dd>
-             <dd>快餐</dd>
-             <dd>快餐</dd>
-             <dd>快餐</dd>
-             <dd>快餐</dd>
-             <dd>快餐</dd>
+
            </dl>
            <dl class="movie">
              <dt>看电影</dt>
-             <dd>热门电影</dd>
-             <dd>热门电影</dd>
-             <dd>热门电影</dd>
-             <dd>热门电影</dd>
-             <dd>热门电影</dd>
              <dd>热门电影</dd>
              <dd>热门电影</dd>
              <dd>热门电影</dd>
