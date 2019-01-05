@@ -1,8 +1,8 @@
 <template>
    <div class="m-menu">
-     <dl class="nav" @mouseleave="mouseleave">
+     <dl class="nav">
        <dt>全部分类</dt>
-       <dd v-for="(item,index) of menu" :key="index" @mouseenter="mouseenter">
+       <dd v-for="(item,index) of menu" :key="index" @mouseenter="mouseenter" @mouseleave="mouseleave">
          <i :class="item.type"/>{{item.name}}<span class="arrow"/>    
        </dd>
      </dl>
@@ -51,6 +51,7 @@ export default {
   },
   methods:{
     mouseenter(e){
+      clearTimeout(this.timer)
       this.kind=e.target.querySelector('i').className;
       
     },
