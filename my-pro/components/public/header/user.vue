@@ -21,6 +21,16 @@ export default {
         return{
             user:''
         }
+    },
+    async mounted(){
+        const {status,data:{user}}= await this.$axios.get('/users/getUser')
+        if(status===200){
+            if(user){
+            this.user=user
+            }
+        }else{
+            console.log(`服务器错误，错误码:${status}`)
+        }
     }
 }
 </script>
